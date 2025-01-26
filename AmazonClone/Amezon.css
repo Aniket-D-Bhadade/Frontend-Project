@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color : white ; 
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px ;
+    width: 100px;
+    
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    background-size: cover;
+    width: 100%;
+}
+.border {
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.add-1{
+    color: #cccccc;
+    font-size: 0.85rem;  
+    margin-left: 15px; 
+}
+.add-2{
+    font-size: 1rem;
+    margin-left: 4px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange ;
+}
+
+span{
+    font-size: 0.9rem;
+}
+.nav-2{
+    font-weight: bold;
+}
+
+/* Pannel Css  */
+.pannel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannel-option p {
+    display: inline;
+    margin-left: 15px;
+}
+.pannel-option{
+    width: 70%;
+    font-size: 0.9rem;
+}
+.pannel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Hero section css  */
+.hero-section{
+    background-image: url("hero_image.jpg ");
+    height:350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+     
+}
+.hero-msg{
+    background-color: white;
+    color: black;
+    height: 40px;
+    font-size: 0.95rem;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.hero-msg a {
+    color: #007185;
+}
+/* Shop section */
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box {
+    
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 15px 0px 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);}
+.box-img{   
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem ;
+}
+footer{
+    margin-top: 15px;
+}
+.footer-pannle1{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #374751;
+    color:white;
+    font-size: 0.9rem;
+}
+.footer-pannle2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 500px;
+    list-style: none;
+    background-color: #222f3d;
+    color: white;
+    
+    
+}
+.footer-pannle2 p {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.footer-pannle2 ul{
+    list-style: none;
+    list-style-type: none; 
+}
+.footer-pannle2 li{
+    margin-top: 10px;
+    color: #DDDDDD;
+}
+.footer-pannel3{
+    height: 68px;
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid rgb(241, 239, 234);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foot-img{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    background-size: cover;    
+    width: 100px;
+}
+.footer-pannle4{
+    height: 100px;
+background-color: #0f1111;
+color: white;
+font-size: 0.85rem;
+}
+.pages{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+    font
+}
+.copyright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40px;
+}
+
