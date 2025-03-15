@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color:rgb(79, 82, 110);
+    text-align: center;
+    display: grid;
+    align-items: center;
+
+}
+.Heading{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+}
+.Para{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 20%;
+}
+
+.GameBoard{
+    width: 50%;
+    height: 70%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 100px); /* Three columns, each 100px wide */ 
+    grid-template-rows: repeat(3, 100px);
+    margin-left: 26%;
+}
+
+.Box{
+    height: 90px;
+    width: 90px;
+    /* border: 2px solid black; */
+    padding: 0;
+    margin: 0  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    background: rgb(131,58,180);
+    background: rgb(2,0,36);
+    background: rgb(2,0,36);
+    background-color: aqua;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 8vmin;
+    font-weight: lighter;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.Box:hover{
+    background-color: rgb(255, 252, 100);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+.Reset{
+   margin-top: 10vh;
+   height: 30px;
+   width: 90px;
+   border-radius: 18px;
+   background: rgb(131,58,180);
+   background: rgb(2,0,36);
+   background: rgb(131,58,180);
+   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 0%, rgba(253,75,41,1) 0%, rgba(252,176,69,1) 100%);
+   border: none;
+}
